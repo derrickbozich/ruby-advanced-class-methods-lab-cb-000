@@ -54,7 +54,7 @@ class Song
     artist = artist_and_songname[0]
     song = songname[0]
     puts "#{artist}: #{song}"
-  
+
   end
 end
 Song.new_from_filename("Thundercat - For Love I Come.mp3")
