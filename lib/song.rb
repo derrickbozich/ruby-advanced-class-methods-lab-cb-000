@@ -55,9 +55,9 @@ class Song
     split_song = songname[0]
 
     song = self.new
-    song.name = split_song
-    song.artist_name = artist
-
+    # song.name = split_song
+    # song.artist_name = artist
+   song
 
   end
 end
