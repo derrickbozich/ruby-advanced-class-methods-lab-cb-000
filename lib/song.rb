@@ -53,8 +53,8 @@ class Song
     songname = artist_and_songname[1].split(".mp3")
     artist = artist_and_songname[0]
     song = songname[0]
-
-    
+    puts "#{artist}: #{song}"
+  
   end
 end
-Thundercat - For Love I Come.mp3
+Song.new_from_filename("Thundercat - For Love I Come.mp3")
