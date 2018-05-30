@@ -45,8 +45,7 @@ class Song
 
   def self.alphabetical
     sorted_songs = []
-    self.all.each {|song| sorted_songs.push(song.name)}
-    sorted_songs.sort
+    self.all.sort {|a,b| a.name <=> b.name}
   end
 
 end
