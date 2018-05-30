@@ -52,11 +52,11 @@ class Song
     artist_and_songname = file.split(" - ")
     songname = artist_and_songname[1].split(".mp3")
     artist = artist_and_songname[0]
-    song = songname[0]
+    split_song = songname[0]
 
-    initialized_song = self.new
-    initialized_song.name = song
-    initialized_song.artist_name = artist
+    song = self.new
+    song.name = split_song
+    song.artist_name = artist
 
 
   end
