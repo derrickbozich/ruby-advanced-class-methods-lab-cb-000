@@ -53,7 +53,11 @@ class Song
     songname = artist_and_songname[1].split(".mp3")
     artist = artist_and_songname[0]
     song = songname[0]
-    puts "#{artist}: #{song}"
+
+    initialized_song = self.new
+    initialized_song.name = song
+    initialized_song.artist = artist
+
 
   end
 end
